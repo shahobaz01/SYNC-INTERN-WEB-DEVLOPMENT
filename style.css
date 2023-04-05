@@ -1,0 +1,109 @@
+ /* Global Styles */
+      * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #f2f2f2;
+      }
+
+      /* Header Styles */
+      header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 36px;
+        margin-right: 20px;
+      }
+
+      header nav a {
+        color: #fff;
+        margin: 0 10px;
+        /* text-decoration: none; */
+        border-radius: 3px;
+        border-color: yellow;
+      }
+      header nav a:hover {
+        color: #1d70c9;
+      }
+
+      /* Product Image Styles */
+      .product-image {
+        background-image: url('https://b2583417.smushcdn.com/2583417/wp-content/uploads/2022/02/absolut-Vodka-absolut-bottle.jpg?lossy=0&strip=1&webp=1');
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        height: 400px;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+      }
+
+      /* Product Description Styles */
+      .product-description {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .product-description h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .product-description p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+
+      .product-description button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .product-description button:hover {
+        background-color: #1d70c9;
+      }
+
+      /* Footer Styles */
+      footer {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+
+      footer p {
+        margin: 0;
+        font-size: 14px;
+      }
+
+      footer ul {
+        list-style: none;
+        display: flex;
+      }
+
+      footer ul li {
+        margin-right: 10px;
+      }
+
+      footer ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
